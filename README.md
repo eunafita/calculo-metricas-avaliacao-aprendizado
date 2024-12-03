@@ -32,7 +32,7 @@ O objetivo principal deste projeto é:
 │   └── Matriz_Confusão.ipynb # Notebook principal do projeto
 ├── requirements.txt   # Lista de dependências para instalação
 ├── logs/              # Diretório para salvar os logs do TensorBoard
-└── outputs/           # Gráficos gerados (opcional)
+└── images/           # Gráficos gerados (opcional)
 ```
 
 ---
