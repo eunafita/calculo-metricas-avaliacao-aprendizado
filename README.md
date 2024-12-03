@@ -26,10 +26,13 @@ O objetivo principal deste projeto é:
 
 ## 📂 Estrutura do Projeto
 
-├── README.md # Documentação do projeto ├── mnist_classify.py # Código principal do projeto ├── requirements.txt # Lista de dependências para instalação ├── logs/ # Diretório para salvar os logs do TensorBoard └── outputs/ # Gráficos gerados (opcional)
-
-yaml
-Copiar código
+```plaintext
+├── README.md          # Documentação do projeto
+├── mnist_classify.py  # Código principal do projeto
+├── requirements.txt   # Lista de dependências para instalação
+├── logs/              # Diretório para salvar os logs do TensorBoard
+└── outputs/           # Gráficos gerados (opcional)
+```
 
 ---
 
