@@ -28,7 +28,8 @@ O objetivo principal deste projeto é:
 
 ```plaintext
 ├── README.md          # Documentação do projeto
-├── mnist_classify.py  # Código principal do projeto
+├── notebooks/              # Pasta com notebooks Jupyter
+│   └── Matriz_Confusão.ipynb # Notebook principal do projeto
 ├── requirements.txt   # Lista de dependências para instalação
 ├── logs/              # Diretório para salvar os logs do TensorBoard
 └── outputs/           # Gráficos gerados (opcional)
