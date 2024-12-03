@@ -79,59 +79,71 @@ Copiar código
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
    cd seu-repositorio
-Crie um ambiente virtual (recomendado):
+2. Crie um ambiente virtual (recomendado):
 
-bash
-Copiar código
+```bash
+
 conda create --name mnist_env python=3.10
 conda activate mnist_env
-Instale as dependências:
+```
 
-bash
-Copiar código
+3. Instale as dependências:
+
+```bash
+
 pip install -r requirements.txt
-Execute o código:
+```
 
-bash
-Copiar código
+4. Execute o código:
+
+```bash
+
 python mnist_classify.py
+```
+
 (Opcional) Visualize os logs no TensorBoard:
 
-bash
-Copiar código
+```bash
+
 tensorboard --logdir=logs
-🛠️ Dependências
+```
+
+## 🛠️ Dependências
 As bibliotecas necessárias estão listadas no arquivo requirements.txt. Você pode instalar todas com o seguinte comando:
 
-bash
-Copiar código
+```bash
+
 pip install -r requirements.txt
+```
+
 Conteúdo do requirements.txt:
 
-Copiar código
+```bash
 tensorflow
 numpy
 matplotlib
 seaborn
 pandas
-📈 Resultados
+```
+
+## 📈 Resultados
+
 Após o treinamento, o modelo alcançou os seguintes resultados:
 
-Acurácia: 99%
-Sensibilidade Média: 99%
-AUC: 1.0 para todas as classes.
+- Acurácia: 99%
+- Sensibilidade Média: 99%
+- AUC: 1.0 para todas as classes.
+
 Os gráficos gerados incluem:
 
-Matriz de Confusão.
-Curvas ROC para cada classe.
-👩‍💻 Autor
-Desenvolvido por Seu Nome. Sinta-se à vontade para entrar em contato em caso de dúvidas ou sugestões!
+- Matriz de Confusão.
+- Curvas ROC para cada classe.
 
-📜 Licença
+## 👩‍💻 Autor
+Desenvolvido por Rafael Danilo Santos Bortoluzzi. Sinta-se à vontade para entrar em contato em caso de dúvidas ou sugestões!
+
+## 📜 Licença
 Este projeto está licenciado sob a MIT License. Sinta-se à vontade para usá-lo e modificá-lo.
 
-yaml
-Copiar código
 
----
 
