@@ -63,10 +63,10 @@ O objetivo principal deste projeto é:
 ## 🖼️ Exemplos de Saídas
 
 ### Matriz de Confusão
-![Matriz de Confusão](outputs/confusion_matrix.png)
+![Matriz de Confusão](images/matriz_confusao.png)
 
 ### Curva ROC
-![Curva ROC](outputs/roc_curve.png)
+![Curva ROC](images/curva_roc.png)
 
 ---
 
