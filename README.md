@@ -81,7 +81,7 @@ O objetivo principal deste projeto é:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/eunafita/calculo-metricas-avaliacao-aprendizado
    cd seu-repositorio
 2. Crie um ambiente virtual (recomendado):
 
@@ -102,7 +102,7 @@ pip install -r requirements.txt
 
 ```bash
 
-python mnist_classify.py
+python ./notebooks/Matriz_Confusão.ipynb
 ```
 
 (Opcional) Visualize os logs no TensorBoard:
